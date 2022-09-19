@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components{
+
+    .btn-default{
+    @apply bg-gree-main text-purple-main text-sm rounded-full px-10 py-3 uppercase font-bold max-w-xl mx-auto tracking-widest transition duration-500;
+    }
+    .btn-default:hover{
+        @apply bg-white;
+    }
+}
